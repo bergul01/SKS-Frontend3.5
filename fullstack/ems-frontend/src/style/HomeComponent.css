@@ -1,0 +1,43 @@
+.home-container {
+  background-color: #f2f2f2; /* Arka plan rengi belirleyin */
+  height: 100vh; /* Ekran yüksekliği kadar kaplasın */
+  display: flex;
+  flex-direction: column;
+}
+
+.screen-image {
+  flex: 1; /* İçeriğin ekranın geri kalan kısmını kaplamasını sağlar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.currency-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.card strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .rate {
+  font-size: 1.5em;
+}

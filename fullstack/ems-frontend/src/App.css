@@ -1,0 +1,40 @@
+.footer{ /* <FooterComponent/> kısmından geldi. Bir web sayfasının alt kısmında genellikle telif hakkı bilgileri için kullanılır*/
+  position: absolute;            /*footer konumunu sayfanın altına sabitler*/
+  bottom: 0;                    /* footer'ı sayfanın altına hizalar*/
+  width: 100%;                  /*footer'ın genişliğini sayfanın genişliği kadar yapar sayfanın tamamı kaplanır */
+  height: 50px;                 /* footer'ın yüksekliği 50px olarak ayarlanır*/
+  background-color: black;    /*Footer'ın arka plan rengini siyah olarak ayarlar */
+  text-align: center;          /* Metni ortalar*/
+  color: white;              /* Metin rengini beyaz olarak ayarlar*/
+}
+.screen-image {
+  width: 99vw; /* Ekranın genişliği kadar */
+  height: 91vh; /* Ekranın yüksekliği kadar */
+  background-image: url("src/assets/barret.jpg"); /* Resmi arka plan olarak ekle */
+  background-size: cover; /* Resmi ekran boyutuna uyacak şekilde kapla */
+  background-position: center; /* Resmi ekranın ortasına hizala */
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+
+.navbar {
+  height: 80px; /* Navbar yüksekliği */
+}
+
+.navbar-brand img {
+  margin-right: 30px; /* Fotoğraf ile yazı arasındaki mesafe */
+}
+
+
+#imageContainer{
+  width: 100vw; /* Ekranın genişliği kadar */
+  height: 95vh; /* Ekranın yüksekliği kadar */
+  background-image: url("src/assets/wall.jpeg"); /* Resmi arka plan olarak ekle */
+  background-size: cover; /* Resmi ekran boyutuna uyacak şekilde kapla */
+  background-position: center; /* Resmi ekranın ortasına hizala */
+}
+
+
+
